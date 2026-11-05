@@ -1,0 +1,27 @@
+name: Feature request
+description: Something you want OptiFlume to do, or do differently.
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What gets in your way today
+      description: The situation, not the solution. Which tool, which kind of prompt or session.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like instead
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Efficient Router (model and effort choice, switching, overrides)
+        - Context Manager (working memory, compaction, shared context)
+        - Guardian (secrets, deletes, destructive commands, loops)
+        - Console and analytics
+        - Install, updates, the CLI
+        - Another tool or platform
+        - Something else

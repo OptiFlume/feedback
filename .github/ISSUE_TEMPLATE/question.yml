@@ -1,0 +1,15 @@
+name: Question
+description: How OptiFlume behaves in your setup, when the docs did not answer it.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The docs are at https://optiflume.ai/docs and the troubleshooting page at https://optiflume.ai/docs/troubleshooting. Longer conversations fit Discussions better.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Which tool, and what you have already tried.
+    validations:
+      required: true
